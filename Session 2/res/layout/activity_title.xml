@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SessionTitleActivity"
+    android:background="#A4C639" >
+
+    <uk.ac.icappsoc.appsoctwo.circleimage.CircleImageView
+        android:id="@+id/circleImageView2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="39dp"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/soc_logo" />
+
+    <uk.ac.icappsoc.appsoctwo.circleimage.CircleImageView
+        android:id="@+id/circleImageView1"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_alignRight="@+id/circleImageView2"
+        android:layout_below="@+id/circleImageView2"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="58dp"
+        android:scaleType="center"
+        android:src="@drawable/session_header" />
+
+</RelativeLayout>

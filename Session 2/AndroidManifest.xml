@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.ac.icappsoc.appsoctwo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="uk.ac.icappsoc.appsoctwo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="uk.ac.icappsoc.appsoctwo.circleimage.SessionTitleActivity"
+            android:label="@string/title_activity_demo" >
+        </activity>
+        <activity
+            android:name="uk.ac.icappsoc.appsoctwo.split.SplitActivity"
+            android:label="@string/title_activity_split"
+            android:theme="@style/SplitAppTheme" >
+        </activity>
+        <activity
+            android:name="uk.ac.icappsoc.appsoctwo.circleimage.CircleImageActivity"
+            android:label="@string/title_activity_circle_image" >
+        </activity>
+        <activity
+            android:name="uk.ac.icappsoc.appsoctwo.rainbowtv.RainbowTextViewActivity"
+            android:label="@string/title_activity_rainbow_text_view" >
+        </activity>
+    </application>
+
+</manifest>
