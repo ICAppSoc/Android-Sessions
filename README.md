@@ -5,10 +5,10 @@ Browse online, or [download as a .zip file][1].
 
 Usage
 -----
-1. [Download][1] and extract to "directory of choice".
+1. [Download][1] and extract to DIRECTORY_OF_CHOICE.
 2. Open Eclipse.
-3. File > Import > Android/Existing Android Code Into Workspace > Root Directory > Browse to "directory of choice"
-4. Select sessions you want to import, optionally name them under "New Project Name"
+3. File > Import > Android/Existing Android Code Into Workspace > Root Directory > Browse to DIRECTORY_OF_CHOICE.
+4. Select sessions you want to import, optionally name them under "New Project Name".
 5. Finish! Browse the code to your heart's content. Run it on a device. On an emulator. On a horse.
 
 
