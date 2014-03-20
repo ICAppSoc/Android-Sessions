@@ -4,6 +4,7 @@ Sensors in Action
 -----------------
 
 [Presentation]
+[Demo App](https://www.dropbox.com/s/peebf44x7zhcayo/AppSocThree.apk)
 
 Objectives
 ----------
