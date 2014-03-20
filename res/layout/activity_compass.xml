@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_soc_red"
+    tools:context="uk.ac.icappsoc.appsocthree.compass.CompassActivity" >
+    
+    <!-- We'll use our own custom View. -->
+    <uk.ac.icappsoc.appsocthree.compass.CompassView
+        android:id="@+id/compass" 
+        android:src="@drawable/compass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+    
+</RelativeLayout>
+

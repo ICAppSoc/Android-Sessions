@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_soc_red"
+    tools:context="uk.ac.icappsoc.appsocthree.accel.Gravity2DActivity" >
+    
+    <uk.ac.icappsoc.appsocthree.accel.BouncyBallView 
+        android:id="@+id/gravity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
+
