@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:background="@color/app_soc_red"
+    tools:context="uk.ac.icappsoc.appsocthree.accel.ShakeActivity" >
+    
+    <TextView
+        android:id="@+id/shake_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/shake_me"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="32sp" />
+    
+</FrameLayout>
+

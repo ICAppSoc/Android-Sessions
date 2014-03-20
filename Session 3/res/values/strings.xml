@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppSocThree</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="shake_me">Shake me!</string>
+    <string name="action_use_simulator">Simulator</string>
+    <string name="title_activity_sensor_list">SensorListActivity</string>
+    <string name="title_activity_gravity">GravityActivity</string>
+    <string name="title_activity_shake">ShakeActivity</string>
+    <string name="title_activity_compass">CompassActivity</string>
+    <string name="title_activity_proximity">ProximityActivity</string>
+    <string name="title_activity_light_clock">LightClockActivity</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

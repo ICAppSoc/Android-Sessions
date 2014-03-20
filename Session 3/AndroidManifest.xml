@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.ac.icappsoc.appsocthree"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="uk.ac.icappsoc.appsocthree.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="uk.ac.icappsoc.appsocthree.SensorListActivity"
+            android:label="@string/title_activity_sensor_list" >
+        </activity>
+        <activity
+            android:name="uk.ac.icappsoc.appsocthree.accel.Gravity2DActivity"
+            android:label="@string/title_activity_gravity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="uk.ac.icappsoc.appsocthree.accel.ShakeActivity"
+            android:label="@string/title_activity_shake" >
+        </activity>
+        <activity
+            android:name="uk.ac.icappsoc.appsocthree.compass.CompassActivity"
+            android:label="@string/title_activity_compass"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="uk.ac.icappsoc.appsocthree.light.LightClockActivity"
+            android:label="@string/title_activity_light_clock" >
+        </activity>
+        <activity
+            android:name="uk.ac.icappsoc.appsocthree.proximity.ProximityActivity"
+            android:label="@string/title_activity_proximity" >
+        </activity>
+    </application>
+
+</manifest>
