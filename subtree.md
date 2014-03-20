@@ -3,7 +3,7 @@
 
 Adding sub-project
 ------------------
-    git remote add -f session-x-remote git@bitbucket.org:justasm/ic-appsoc-android-lesson-x.git
+    git remote add -f session-x-remote /PATH/TO/LESSON-X/
 
 Adding subtree
 --------------
@@ -18,7 +18,7 @@ Contributing back to up-stream
 ------------------------------
 Fork and add as another remote:
 
-    git remote add session-x-fork ssh://git@bitbucket.org:justasm/ic-appsoc-android-lesson-x.git
+    git remote add session-x-fork ssh://git@bitbucket.org:user/ic-appsoc-android-lesson-x.git
 
 Use subtree push:
 
