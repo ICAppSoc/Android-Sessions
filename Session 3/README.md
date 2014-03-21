@@ -3,7 +3,7 @@ Android - Session Three
 Sensors in Action
 -----------------
 
-[Presentation]
+[Presentation](https://docs.google.com/presentation/d/1AMZ-GWRgYBjXBOjt6QS9qsLo3jCCxB18wVxlLiGXoIo/edit?usp=sharing)
 
 
 [Demo App](https://www.dropbox.com/s/peebf44x7zhcayo/AppSocThree.apk)
